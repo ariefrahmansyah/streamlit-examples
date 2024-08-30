@@ -2,7 +2,7 @@ import pickle
 
 import streamlit as st
 
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("iris_sklearn/model.pkl", "rb"))
 target_names = ["setosa", "versicolor", "virginica"]
 
 st.title("Iris Classifier 🌺")
